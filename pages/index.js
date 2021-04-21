@@ -18,6 +18,7 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta lang="en" />
         <link rel="canonical" href="https://michaelrausch.nz" />
+        
         <script
           type='application/ld+json'
           dangerouslySetInnerHTML={{ __html: JSON.stringify(GetLDJson()) }}
@@ -49,17 +50,11 @@ export default function Home() {
         <Photography></Photography>
       </Section>
 
-
-
       <Section title="Get In Touch">
         <ContactForm></ContactForm>
       </Section>
 
-
       <Footer></Footer>
-
-
-
     </div>
   )
 }
