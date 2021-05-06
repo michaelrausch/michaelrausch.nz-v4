@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 export default function Photography() {
     return (
         <div class="overflow-hidden relative lg:flex lg:items-center px-5">
-            <div class="w-full px-20 md:px-0">
+            <div class="w-full px-0 sm:px-20 md:px-0">
                 <h2 class="text-3xl font-extrabold text-black dark:text-white sm:text-5xl text-center md:text-left">
                     <span class="block">
                         Photography
