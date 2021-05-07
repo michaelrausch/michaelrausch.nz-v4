@@ -2,6 +2,10 @@
 See: https://michaelrausch.nz
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e6361a1-adc0-4f2b-b5ad-8c162359e1a7/deploy-status)](https://app.netlify.com/sites/michaelrausch-nz/deploys)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=alert_status)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=bugs)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
 
 ## 🛠 Installation & Set Up
 
