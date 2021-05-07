@@ -1,8 +1,7 @@
 # Personal Website
 See: https://michaelrausch.nz
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7e04211d-c1f0-4fe9-80da-3968c465e845/deploy-status)](https://app.netlify.com/sites/michaelrauschnz/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e6361a1-adc0-4f2b-b5ad-8c162359e1a7/deploy-status)](https://app.netlify.com/sites/michaelrausch-nz/deploys)
 
 ## 🛠 Installation & Set Up
 
