@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import SectionWithTitle from '../../../components/sectionwithtitle'
-export default function Home() {
+
+export default function BarberAndCo() {
     return (
         <div className="bg-green-500	 ">
             <Head>

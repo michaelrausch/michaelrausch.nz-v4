@@ -1,12 +1,5 @@
 import Head from 'next/head'
-import Banner from '../components/banner'
-import ContactForm from '../components/contactform'
-import DevCta from '../components/devcta'
-import Jumbotron from '../components/jumbotron'
-import Photography from '../components/photography'
-import Section from '../components/section'
 import Footer from '../components/footer'
-import Dark from '../components/dark'
 import GetLDJson from '../util/ldjson'
 import PageHeader from '../components/pageheader'
 
