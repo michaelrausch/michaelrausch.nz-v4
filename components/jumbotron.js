@@ -20,7 +20,7 @@ export default function Jumbotron() {
                   <span class="block text-dyellow xl:inline">Michael 👋</span>
                 </h1>
                 <p class="mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  I'm a Christchurch based, freelance software engineer and photographer. I create mobile and web applications for small businesses throughout Australia and New Zealand.
+                  I'm a Christchurch based freelance software engineer and photographer. I create mobile and web applications for small businesses throughout Australia and New Zealand.
                 </p>
                 <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <motion.div 

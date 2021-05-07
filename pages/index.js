@@ -5,6 +5,7 @@ import DevCta from '../components/devcta'
 import Jumbotron from '../components/jumbotron'
 import Photography from '../components/photography'
 import Section from '../components/section'
+import SectionWithBg from '../components/sectionwithbg'
 import Footer from '../components/footer'
 import Dark from '../components/dark'
 import GetLDJson from '../util/ldjson'
@@ -19,12 +20,12 @@ export default function Home() {
         <meta name="robots" content="index, follow" />
         <meta lang="en" />
         <link rel="canonical" href="https://michaelrausch.nz" />
-        
+
         <script
           type='application/ld+json'
           dangerouslySetInnerHTML={{ __html: JSON.stringify(GetLDJson()) }}
         />
-        
+
         <meta property="og:title" content="Michael Rausch | Web and App Development" />
         <meta property="og:description"
           content="A Christchurch based software engineer who specializes in creating websites and apps for small and medium-sized businesses" />
@@ -53,36 +54,29 @@ export default function Home() {
                 <p class="mb-8 leading-relaxed">Download the Barber & Co app to be eligible for their Loyalty Programme. Have your barber scan your code and work towards receiving 50% off your 5th cut, and your 10th cut FREE.</p>
                 <div class="flex justify-center">
                   <a className="" href="https://apps.apple.com/nz/app/barber-co/id1541086997?itsct=apps_box_badge&amp;itscg=30200" target="_blank" >
-                    <img className="h-16" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619913600&h=fad42942225e4c7ac5392eceb723a72f" alt="Download on the App Store"/>
+                    <img className="h-16" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619913600&h=fad42942225e4c7ac5392eceb723a72f" alt="Download on the App Store" />
                   </a>
                 </div>
               </div>
               <div class="">
-                <img class="w-72 right" alt="hero" src="/images/BarberCo_iPhone_65.png"/>
+                <img class="w-72 right" alt="hero" src="/images/BarberCo_iPhone_65.png" />
               </div>
             </div>
           </section>
-          
+
         </Section>
 
       </Dark>
-     
-
-<Section>
-        <Photography></Photography>
-      </Section>
-     
-
-      <Section title="Get In Touch">
-        <ContactForm></ContactForm>
-      </Section>
 
 
       <Section>
-        
+        <Photography></Photography>
       </Section>
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FCE951" fillOpacity="1" d="M0,192L80,181.3C160,171,320,149,480,165.3C640,181,800,235,960,250.7C1120,267,1280,245,1360,234.7L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+
+
+      <SectionWithBg title="Get In Touch" className="">
+        <ContactForm></ContactForm>
+      </SectionWithBg>
 
       <Footer></Footer>
 
