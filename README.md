@@ -2,6 +2,10 @@
 See: https://michaelrausch.nz
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e6361a1-adc0-4f2b-b5ad-8c162359e1a7/deploy-status)](https://app.netlify.com/sites/michaelrausch-nz/deploys)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=alert_status)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=michaelrausch_michaelrausch.nz-v4&metric=bugs)](https://sonarcloud.io/dashboard?id=michaelrausch_michaelrausch.nz-v4)
 
 ## 🛠 Installation & Set Up
 
@@ -46,8 +50,8 @@ See: https://michaelrausch.nz
 ## Using This Project
 Although this website wasn't designed as a template, you're free to use and adapt it as you wish. All of the source code in this project is licensed under the MIT license, with the following exceptions:
 
-- All photos in the /public/images directory are copyrighted and must not be used without permission.
-- All blog posts are copyrighted and cannot be re-published without permission (this does not apply to the SVG graphics).
+- All photos in the /public/images directory are copyrighted and must not be used without permission (this does not apply to the SVG graphics).
+- All blog posts are copyrighted and cannot be re-published without permission.
 - Any projects, text, and links must be changed to be your own.
 
 ## License
