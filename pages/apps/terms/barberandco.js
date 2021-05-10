@@ -5,19 +5,10 @@ export default function BarberAndCo() {
     return (
         <div className="bg-green-500	 ">
             <Head>
-                <title>Michael Rausch | Web and App Development</title>
-                <meta name="description"
-                    content="A Christchurch based software engineer who specializes in creating websites and apps for small and medium-sized businesses" />
-                <meta name="robots" content="index, follow" />
+                <title>Barber & Co - Terms</title>
+                <meta name="robots" content="noindex, nofollow" />
                 <meta lang="en" />
-                <link rel="canonical" href="https://michaelrausch.nz" />
-
-                <meta property="og:title" content="Michael Rausch | Web and App Development" />
-                <meta property="og:description"
-                    content="A Christchurch based software engineer who specializes in creating websites and apps for small and medium-sized businesses" />
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://michaelrausch.nz/" />
-                <meta property="og:image" content="https://michaelrausch.nz/images/profilephoto.jpg" />
+                <meta name="apple-itunes-app" content="app-id=1541086997"/>
 
                 <link rel="icon" href="/favicon.ico" />
             </Head>
