@@ -10,8 +10,8 @@ export const Footer: React.FC<Props> = ({name, instagramUrl, linkedinUrl}) => {
   return (
     <footer className="text-gray-600  body-font bg-gray-900 ">
       <div className=" px-5 py-8 mx-auto flex items-center sm:flex-row flex-col max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
-        <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <span className="ml-3 text-xl font-semibold text-gray-100 ">Michael Rausch</span>
+        <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
+          <span className="ml-3 text-xl font-semibold text-gray-100 " >Michael Rausch</span>
         </a>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="ml-3 text-gray-500" href={instagramUrl} target="_blank">
