@@ -7,7 +7,7 @@ module.exports = {
         'wave': "url('/images/wave-clear.svg')"
       }),
       colors: {
-        dyellow: {
+        yellow: {
           DEFAULT: '#FFE410',
           light: '#ffed5d',
           dark: '#f6da00',
