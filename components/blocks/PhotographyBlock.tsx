@@ -36,7 +36,7 @@ export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage,
                             transition={{duration: 0.2}}                                    
                             className="mt-12 inline-flex rounded-md shadow w-full md:w-auto">
 
-                            <a href={portfolioUrl} rel="noreferrer" target="_blank" className="py-3 px-7 yellow-regular-shadow hover:bg-yellow-dark text-black w-full transition ease-in duration-200 text-center text-base font-semibold rounded-md">
+                            <a href={portfolioUrl} rel="noreferrer" target="_blank" className="py-3 px-7 yellow-regular-shadow bg-yellow-light text-black w-full transition ease-in duration-200 text-center text-lg font-bold rounded-md">
                                 Portfolio
                             </a>
                         </motion.div>

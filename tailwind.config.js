@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './layouts/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -8,13 +8,12 @@ module.exports = {
       }),
       colors: {
         yellow: {
-          DEFAULT: '#FFE410',
-          light: '#ffed5d',
-          dark: '#f6da00',
-          ultralight: '#fff9c4',
-          ultradark: '#2b2600',
-          megalight: '#fffcde',
-          regular: '#FCE951'
+          DEFAULT: '#00dd88',
+          light: '#00f597',
+          dark: '#00dd88',
+          ultralight: '#b8ffe4',
+          megalight: '#d6ffef',
+          regular: '#00dd88'
         },
 
         barberco: {
@@ -26,5 +25,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }

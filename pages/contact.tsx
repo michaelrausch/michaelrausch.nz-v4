@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { Footer } from '../components/Footer'
-import GetLDJson from '../util/ldjson'
+import GetLDJson from '../lib/ldjson'
 import { Header } from '../components/Header'
 import { Container } from '../components/Container'
 import { NextSeo } from 'next-seo'

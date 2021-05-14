@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 .yellow-regular-shadow {
-    background: #FCE951;
-    box-shadow:  9px 9px 18px rgba(239, 221, 77, 0.23),
-                 -9px -9px 18px rgba(255, 245, 85, 0.23)
-                 ;
+    box-shadow:  9px 9px 18px rgba(163, 255, 220, 0.23),
+                 -9px -9px 18px rgba(163, 255, 220, 0.23);
 }
