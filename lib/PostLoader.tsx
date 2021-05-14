@@ -90,9 +90,7 @@ export const getPostData = async (contentDirectory: string, id: string) => {
  */
 export const getNumberOfPages = (contentDirectory: string, postsPerPage: number) => {
     const postIds = getAllPostIds(contentDirectory);
-    const pages = Math.ceil(postIds.length / postsPerPage);
-
-    return pages;
+    return Math.ceil(postIds.length / postsPerPage);
 }
 
 /**
@@ -104,7 +102,6 @@ export const getNumberOfPages = (contentDirectory: string, postsPerPage: number)
  * @returns 
  */
 export const getPostsForPage = (contentDirectory: string, pageNumber: number, postsPerPage: number) => {
-    const numberOfPages = getNumberOfPages(contentDirectory, postsPerPage);
     const allPosts = getAllPosts(contentDirectory);
 
     // Check we're not going to overflow (is this correct?)

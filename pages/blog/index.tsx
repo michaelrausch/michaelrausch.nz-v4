@@ -1,14 +1,6 @@
-import Head from 'next/head'
-import GetLDJson from '../../lib/ldjson'
-import matter from 'gray-matter';
-
-import { Header} from '../../components/Header'
-import { Footer } from '../../components/Footer'
 import { BlogPostListing } from '../../components/blog/BlogPostListing'
 import { GetStaticProps } from 'next'
-import { NextSeo } from 'next-seo'
-import { BLOG_POSTS, DEFAULT_PAGE_COUNT, getAllPosts, getNumberOfPages, getPostsForPage } from '../../lib/PostLoader'
-import Link from 'next/link';
+import { BLOG_POSTS, DEFAULT_PAGE_COUNT, getNumberOfPages, getPostsForPage } from '../../lib/PostLoader'
 import { PageNavigationButtons } from '../../components/blog/PageNavigationButtons';
 import { BlogPageLayout } from '../../layouts/BlogPageLayout';
 

@@ -1,16 +1,8 @@
-import Head from 'next/head'
 import React from 'react'
 
-import { Banner } from '../components/home/Banner'
-import { Jumbotron } from '../components/home/Jumbotron'
 import { PhotographyBlock } from '../components/blocks/PhotographyBlock'
 import { AppFeatureBlock } from '../components/blocks/AppFeatureBlock'
 import { ContactCtaBlock } from '../components/blocks/ContactCtaBlock'
-import { Footer } from '../components/Footer'
-
-import GetLDJson from '../lib/ldjson'
-import { NextSeo } from 'next-seo'
-import { Header } from '../components/Header'
 import { HomePageLayout } from '../layouts/HomePageLayout'
 
 const Home: React.FC = () => {

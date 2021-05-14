@@ -1,5 +1,5 @@
 import { BlogPostListing } from '../../components/blog/BlogPostListing'
-import next, { GetStaticPaths, GetStaticProps } from 'next'
+import { GetStaticPaths, GetStaticProps } from 'next'
 import { BLOG_POSTS, DEFAULT_PAGE_COUNT, getNumberOfPages, getPostsForPage } from '../../lib/PostLoader'
 import { PageNavigationButtons } from '../../components/blog/PageNavigationButtons';
 import { BlogPageLayout } from '../../layouts/BlogPageLayout';
