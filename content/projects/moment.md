@@ -3,7 +3,7 @@ title: "Moment"
 description: ""
 date: 19 May 2021
 category: Web Development
-imageUrl: http://localhost:3000/images/BarberCo_iPhone_65.png
+imageUrl: /images/BarberCo_iPhone_65.png
 color: "#00DB87"
 ---
 
