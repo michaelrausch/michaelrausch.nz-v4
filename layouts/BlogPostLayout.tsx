@@ -4,7 +4,7 @@ import { Header } from "../components/Header"
 
 interface Props {
     title: string;
-    hero: string;
+    hero?: string;
 }
 
 export const BlogPostLayout: React.FC<Props> = ({children, title, hero}) => {
