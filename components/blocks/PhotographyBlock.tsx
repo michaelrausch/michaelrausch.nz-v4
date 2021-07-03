@@ -19,14 +19,14 @@ interface Props {
 export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage, secondaryImage, tertiaryImage}) => {
     return (
         <Container>
-            <div className="overflow-hidden relative lg:flex lg:items-center px-5">
+            <div className="overflow-hidden relative lg:flex lg:items-center px-5 py-20">
                 <div className="w-full px-0 sm:px-20 md:px-0">
-                    <h2 className="text-3xl font-extrabold text-black dark:text-white sm:text-5xl text-center md:text-left">
+                    <h2 className="text-3xl font-extrabold text-white dark:text-white sm:text-5xl text-center md:text-left">
                         <span className="block">
                             Photography
                         </span>
                     </h2>
-                    <p className="text-md mt-4 text-gray-900 text-center md:text-left">
+                    <p className="text-md mt-4 text-gray-100 text-center md:text-left">
                         {bio}
                     </p>
                     <div className="lg:mt-0 lg:flex-shrink-0 mb-10 ">

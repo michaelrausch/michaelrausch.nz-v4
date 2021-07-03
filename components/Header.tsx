@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export const Header: React.FC = () => {
     return (
-        <header className="text-gray-100 bg-gray-900 body-font">
+        <header className="text-gray-100 bg-gray-900 body-font sticky top-0 z-50 backdrop-filter backdrop-blur-lg bg-opacity-70">
             <div className="max-w-7xl mx-auto flex flex-wrap py-6 flex-col md:flex-row items-center px-4 sm:px-6 lg:px-8">
                 <Link href="/">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -14,9 +14,9 @@ export const Header: React.FC = () => {
                     <Link href="/">
                         <a className="mx-5 hover:text-gray-300 font-bold text-center">Home</a>
                     </Link>
-                    <Link href="/blog">
-                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Blog</a>
-                    </Link>      
+                    {/* <Link href="/projects">
+                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Projects</a>
+                    </Link>       */}
                     {/* <a href="https://github.com/michaelrausch"className="mr-5 hover:text-gray-300">Github</a> */}
                 </nav>
                 {/* <Link href="/">

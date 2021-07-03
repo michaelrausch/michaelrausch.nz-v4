@@ -8,7 +8,7 @@ interface Props {
 
 export const Footer: React.FC<Props> = ({name, instagramUrl, linkedinUrl}) => {
   return (
-    <footer className="text-gray-600  body-font bg-gray-900 ">
+    <footer className="text-gray-600  body-font bg-gray-800 ">
       <div className=" px-5 py-8 mx-auto flex items-center sm:flex-row flex-col max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="/">
           <span className="ml-3 text-xl font-semibold text-gray-100 " >Michael Rausch</span>

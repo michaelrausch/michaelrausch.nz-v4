@@ -9,6 +9,7 @@ import html from "remark-html";
  */
 export const BLOG_POSTS = path.join(process.cwd(), 'content/blogs')
 export const DOCUMENTATION = path.join(process.cwd(), 'content/documents')
+export const PROJECTS = path.join(process.cwd(), 'content/projects')
 
 /**
  * Constants

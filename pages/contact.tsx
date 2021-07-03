@@ -23,8 +23,7 @@ const Contact: React.FC = () => {
       <Header></Header>
 
       <Container>
-      <h1>Contact</h1>
-
+      
       </Container>
 
       <Footer
