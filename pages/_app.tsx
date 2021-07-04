@@ -1,6 +1,9 @@
+// import 'tailwindcss/tailwind.css'
+import 'react-toastify/dist/ReactToastify.css';
 import '../styles/globals.css'
-import 'tailwindcss/tailwind.css'
+
 import { DefaultSeo } from 'next-seo';
+import { ToastContainer } from 'react-toastify';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -15,6 +18,19 @@ function MyApp({ Component, pageProps }) {
         url: 'https://michaelrausch.nz',
         site_name: 'Michael Rausch | Web and App Development',
         }}
+      />
+
+      <ToastContainer
+        position="bottom-right"
+        autoClose={7000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        className="text-black"
       />
 
       <Component {...pageProps}/>

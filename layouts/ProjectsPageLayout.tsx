@@ -5,18 +5,17 @@ import { Header } from "../components/Header"
 
 export const ProjectsPageLayout: React.FC = ({ children }) => {
     return (
-        <div className="bg-jumbo bg-no-repeat bg-center bg-cover p-0">
-
-            <div className="bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-000">
+        <div className="bg-no-repeat bg-center bg-cover p-0">
+            <div className="bg-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-910">
                 <NextSeo
-                    title="Projects"
+                    title="Featured Work"
                 />
 
                 <Header />
 
                 <div className="w-full align-middle">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 align-middle">
-                        <h1 className="font-black text-5xl md:text-7xl text-white align-middle py-10">Projects</h1>
+                        <h1 className="font-black text-5xl text-center md:text-left md:text-7xl text-white align-middle py-10">Featured Work</h1>
                     </div>
                 </div>
 

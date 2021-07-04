@@ -7,6 +7,9 @@ module.exports = {
         'wave': "url('/images/wave-clear.svg')",
         'jumbo': "url('/images/blob-scene-haikei.png')"
       }),
+      fontFamily: {
+        'sourcecode': ['"Source Code Pro"', 'sans-serif']
+      },
       typography(theme) {
         return {
           dark: {

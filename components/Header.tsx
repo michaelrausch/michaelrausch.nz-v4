@@ -14,9 +14,9 @@ export const Header: React.FC = () => {
                     <Link href="/">
                         <a className="mx-5 hover:text-gray-300 font-bold text-center">Home</a>
                     </Link>
-                    {/* <Link href="/projects">
-                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Projects</a>
-                    </Link>       */}
+                    <Link href="/projects">
+                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Work</a>
+                    </Link>      
                     {/* <a href="https://github.com/michaelrausch"className="mr-5 hover:text-gray-300">Github</a> */}
                 </nav>
                 {/* <Link href="/">

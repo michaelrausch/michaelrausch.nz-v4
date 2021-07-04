@@ -2,29 +2,10 @@
 title: "Moment"
 description: ""
 date: 19 May 2021
-category: Web Development
-imageUrl: /images/BarberCo_iPhone_65.png
-color: "#00DB87"
+category: App Development
+imageUrl: /moment.png
+heroUrl: /barbercohead.png
+color: "#FFA03F"
+technologies: "Native iOS, Realm"
+outUrl: "https://apps.apple.com/nz/app/moment-event-countdown/id1533376588?ign-itscg=30200&ign-itsct=apps_box#?platform=iphone"
 ---
-
-Bacon ipsum dolor amet pancetta jerky leberkas, meatloaf jowl tenderloin ham frankfurter kevin. Rump beef sirloin pastrami pork loin ham hock flank. Buffalo bresaola pancetta tongue, tenderloin kevin short loin kielbasa pork belly ball tip t-bone shank biltong. Picanha burgdoggen porchetta kevin chislic ball tip. Ground round t-bone biltong spare ribs drumstick cow.
-
-## 🛠 Tools Used
-
-### iOS
-- [UIKit](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Realm](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Firebase](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-
-### Android
-- [React Native](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Realm](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-
-### Backend
-- [NodeJS & Typescript](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [MongoDB](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Firebase](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [JUnit](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Docker](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-- [Traefik](https://www.npmjs.com/package/realm) - Soladsjldsajksadjlkasddjk jlksadj kldsajlkas 
-

@@ -13,7 +13,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
     return (
         <div className="bg-jumbo bg-no-repeat bg-center bg-cover">
             <div className="bg-gray-900 backdrop-filter backdrop-blur-md bg-opacity-20">
-                <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-48 lg:py-28">
+                <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32 lg:py-32">
                     <div className="sm:text-center lg:text-left">
                         <h1 className="text-5xl tracking-tight font-extrabold text-white sm:text-6xl md:text-7xl">
                             <span className="block xl:inline">Hi, I'm </span>
@@ -22,7 +22,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                         <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
                             {bio}
                         </p>
-                        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div className="mt-5 mb-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                             <motion.div
                                 initial={{ scale: 1 }}
                                 animate={{ scale: 1 }}

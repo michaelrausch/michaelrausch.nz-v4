@@ -13,7 +13,7 @@ const Home: React.FC = () => {
           appDescription="Download the Barber & Co app to be eligible for their Loyalty Programme. Have your barber scan your code and work towards receiving 50% off your 5th cut, and your 10th cut FREE."
           appStoreUrl="https://apps.apple.com/nz/app/barber-co/id1541086997?itsct=apps_box_badge&amp;itscg=30200"
           playStoreUrl="https://play.google.com/store/apps/details?id=com.barbercoandroid&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
-          imageUrl="/images/BarberCo_iPhone_65.png"
+          imageUrl="/images/BarberCo_iPhone_Vertical.png"
         />
   
         <PhotographyBlock
