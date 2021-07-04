@@ -25,7 +25,7 @@ export const ContactCtaBlock: React.FC<Props> = ({email, subject}) => {
                                 <span className="block text-white">
                                     Contact Me
                                 </span>
-                                <span className="block text-yellow-regular underline sm">
+                                <span className="block text-green-400 underline sm">
                                     {email}
                                 </span>
                             </h2>
