@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'wave': "url('/images/wave-clear.svg')",
-        'jumbo': "url('/images/blob-scene-haikei.png')"
+        'jumbo': "url('/images/blob-scene-haikei.png')",
+        'earth': "url('/images/earth.jpg')"
       }),
       fontFamily: {
         'sourcecode': ['"Source Code Pro"', 'sans-serif']

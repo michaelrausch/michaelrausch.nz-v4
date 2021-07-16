@@ -3,7 +3,7 @@ import { NextSeo } from "next-seo";
 import Head from "next/head";
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-import ChromeDinoGame from 'react-chrome-dino';
+import { Container } from '../components/Container';
 
 const Custom404: React.FC = () => {
     return (
@@ -16,21 +16,18 @@ const Custom404: React.FC = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="bg-gray-100 h-screen">
-                <Header />
+            <div className="bg-earth bg-no-repeat bg-center bg-cover ">
+                <div className="bg-gray-900 backdrop-filter backdrop-blur-sm bg-opacity-40 h-screen">
+                    <Header />
 
-                <h1 className="text-9xl font-black text-gray-900 text-center pt-32">404</h1>
-                <p className="text-5xl text-gray-700 font-bold text-center pb-20">Not Found</p>
+                    <Container>
+                        <div className="">
+                            <h1 className="text-6xl text-center font-black text-gray-100 md:text-9xl md:text-left">404</h1>
+                            <p className="text-3xl text-center text-gray-200 font-bold md:text-5xl md:text-left">Page Not Found</p>
+                        </div>
+                    </Container>
 
-                <ChromeDinoGame />
-
-                <div className="py-20"></div>
-
-                <Footer
-                    name="Michael Rausch"
-                    instagramUrl="https://www.instagram.com/michaelnz_/"
-                    linkedinUrl="https://www.linkedin.com/in/michael-rausch-13445b8a/"
-                />
+                </div>                
             </div>
 
             
