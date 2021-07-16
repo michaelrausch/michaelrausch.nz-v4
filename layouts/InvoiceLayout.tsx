@@ -3,9 +3,12 @@ import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 import { Document, Page, pdfjs  } from 'react-pdf';
 import { useEffect, useState } from "react";
-import { SizeMe } from 'react-sizeme'
 import { IoIosCloudDownload } from "react-icons/io";
 import { toast } from 'react-toastify';
+import dynamic from 'next/dynamic'
+
+//@ts-ignore
+const PDFViewer = dynamic(() => import('../components/PDFViewer'), { ssr: false });
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -18,13 +21,6 @@ interface Props {
 }
 
 export const InvoiceLayout: React.FC<Props> = ({ children, invoiceAmount, invoicePdf, notification, status}) => {
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1)
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
-
     useEffect(() => {
         if (notification && notification !== "") {
             toast(notification);
@@ -54,20 +50,7 @@ export const InvoiceLayout: React.FC<Props> = ({ children, invoiceAmount, invoic
             </div>
 
             <div className="max-w-7xl mx-auto mt-10 pb-40 px-4  ">
-                <SizeMe 
-                    monitorHeight
-                    refreshRate={128}
-                    refreshMode={"debounce"}
-                >{({ size }) => 
-                    <Document
-                        file={invoicePdf}
-                        onLoadSuccess={onDocumentLoadSuccess}
-                    >
-                    <Page 
-                        width={size.width}
-                        pageNumber={pageNumber} 
-                    />
-                </Document>}</SizeMe>
+                <PDFViewer invoicePdf={invoicePdf}></PDFViewer>
             </div>
 
             <Footer
