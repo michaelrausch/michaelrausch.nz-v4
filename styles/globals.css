@@ -10,3 +10,8 @@
     color: white;
     font-weight: bold;
 }
+
+.react-pdf__Page__canvas {
+    margin: 0 auto;
+    border-radius: 10px;
+}
