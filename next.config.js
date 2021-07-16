@@ -6,6 +6,15 @@ const nextConfig = {
         });
         return config;
     },
+    redirects: async () => {
+        return [
+            {
+                source: '/mail',
+                destination: 'https://outlook.office365.com/mail/login.html',
+                permanent: true
+            }
+        ]
+    }
 };
 
 module.exports = nextConfig;

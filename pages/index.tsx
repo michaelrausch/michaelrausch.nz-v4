@@ -20,9 +20,9 @@ const Home: React.FC = () => {
           bio="I am currently shooting for Metropol Magazine, and am available to take on a limited amount of photography work. I have a wide range of experience, so feel free to take a look at my portfolio and get in touch."
           portfolioUrl="https://photography.michaelrausch.nz"
 
-          mainImage={{ url: "/images/12.jpg", alt: "Oxford Terrace"}}
-          secondaryImage={{ url: "/images/6.jpg", alt: "Saint's of Tai Tapu Wedding"}}
-          tertiaryImage={{ url: "/images/4.jpg", alt: "Industria"}}
+          mainImage={{ url: "/images/photography/cbd.jpg", alt: "Oxford Terrace"}}
+          secondaryImage={{ url: "/images/photography/saints.jpg", alt: "Saint's of Tai Tapu Wedding"}}
+          tertiaryImage={{ url: "/images/photography/industria.jpg", alt: "Industria"}}
         />
 
         <ContactCtaBlock

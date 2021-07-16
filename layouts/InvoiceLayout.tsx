@@ -31,6 +31,7 @@ export const InvoiceLayout: React.FC<Props> = ({ children, invoiceAmount, invoic
         <div className="bg-gray-900">
             <NextSeo
                 title="Invoice"
+                noindex={true}
             />
 
             <Header />
