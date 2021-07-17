@@ -1,5 +1,5 @@
-import { Document, Page, pdfjs } from 'react-pdf';
-import { useEffect, useState } from "react";
+import { Document, Page } from 'react-pdf';
+import { useState } from "react";
 import { SizeMe } from 'react-sizeme'
 
 interface Props {
