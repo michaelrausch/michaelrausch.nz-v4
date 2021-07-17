@@ -4,6 +4,7 @@ import '../styles/globals.css'
 
 import { DefaultSeo } from 'next-seo';
 import { ToastContainer } from 'react-toastify';
+import { Provider } from 'next-auth/client';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -33,7 +34,9 @@ function MyApp({ Component, pageProps }) {
         className="text-black"
       />
 
-      <Component {...pageProps}/>
+      <Provider>
+        <Component {...pageProps}/>
+      </Provider>
     </>
   )
 }
