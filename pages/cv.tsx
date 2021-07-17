@@ -21,25 +21,28 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         session = await getSession(context);
     }
     catch (err) {
-        console.log("Session null")
         return {
             props: {
                 cvPdfUrl: null
             }
-        } 
+        }
     }
     
-    if (session) {
-        console.log("Session aanull")
-
+    if (session && session.cv && session.cv !== "") {
+        return {
+            props: {
+                cvPdfUrl: session.cv
+            }
+        }
+    }
+    else if (session) {
+        console.log(session)
         return {
             props: {
                 cvPdfUrl: process.env.CV_PDF_URL
             }
         }
     }
-
-    console.log("Session null")
 
     return {
         props: {
