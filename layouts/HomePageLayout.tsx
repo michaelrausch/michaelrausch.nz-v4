@@ -24,11 +24,11 @@ export const HomePageLayout: React.FC = ({children}) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Banner
+            {/* <Banner
                 body="Download Moment, a free event countdown app."
                 smallBody="Download Moment, a free event countdown app."
                 link="https://apps.apple.com/nz/app/moment-event-countdown/id1533376588?ign-itscg=30200&ign-itsct=apps_box#?platform=iphone"
-                linkTitle="Download"/>
+                linkTitle="Download"/> */}
 
             <Header/>
 

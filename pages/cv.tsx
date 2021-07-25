@@ -77,7 +77,7 @@ const CV: React.FC<Props> = ({cvPdfUrl}) => {
 
                 <Container>
                     <h2 className="text-white text-5xl font-black">Please Sign In</h2>
-                    <p className="text-white font-medium pt-5">You need to sign in before you'll be able to view my CV</p>
+                    <p className="text-white font-medium pt-5">You'll need to sign in before you can view my CV</p>
                     <button onClick={() => signIn()} className="bg-white py-2 px-5 rounded-md font-bold mt-10 mb-20">Sign In</button>
                 </Container>
                 </>
