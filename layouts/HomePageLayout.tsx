@@ -35,8 +35,8 @@ export const HomePageLayout: React.FC = ({children}) => {
             <JumbotronV2
                 name="Michael"
                 bio="I'm a Christchurch based freelance software engineer and photographer. I create mobile and web applications for small businesses throughout Australia and New Zealand."
-                secondaryLinkUrl="https://y.at/%F0%9F%8D%8D%F0%9F%98%9C%F0%9F%98%82%F0%9F%8C%B5%F0%9F%8E%B8"
-                secondaryLinkName="Social Links"
+                secondaryLinkUrl="https://github.com/michaelrausch/"
+                secondaryLinkName="Github"
                 imageUrl="/images/16.jpg"
             />
 

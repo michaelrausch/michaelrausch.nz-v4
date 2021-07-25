@@ -5,6 +5,7 @@ import '../styles/globals.css'
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { DefaultSeo } from 'next-seo';
 import { ToastContainer } from 'react-toastify';
+import { Provider } from 'next-auth/client';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -34,9 +35,12 @@ function MyApp({ Component, pageProps }) {
         className="text-black"
       />
 
-      <ParallaxProvider>
-        <Component {...pageProps}/>
-      </ParallaxProvider>
+        
+      <Provider>
+        <ParallaxProvider>
+          <Component {...pageProps}/>
+        </ParallaxProvider>
+      </Provider>      
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import { signIn, signOut, useSession } from 'next-auth/client'
 
 interface Props {
   name: string;
@@ -26,6 +27,8 @@ export const Footer: React.FC<Props> = ({name, instagramUrl, linkedinUrl}) => {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
+          <a onClick={() => signIn()} href="#">Sign In</a>
+
         </span>
       </div>
     </footer>

@@ -7,7 +7,6 @@ import { IoIosCloudDownload } from "react-icons/io";
 import { toast } from 'react-toastify';
 import dynamic from 'next/dynamic'
 
-//@ts-ignore
 const PDFViewer = dynamic(() => import('../components/PDFViewer'), { ssr: false });
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
