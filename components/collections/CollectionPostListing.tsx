@@ -17,10 +17,8 @@ interface Props {
 }
 
 export const CollectionPostListing: React.FC<Props> = ({ category, date, title, description, postId, imageUrl, color, heroUrl, technologies, outUrl }) => {
-    const notify = () => toast("I've just launched this website in a new tab 😊");
-
     return (
-        <a className="w-full" href={outUrl} target="_blank" onClick={() => {notify()}}>
+        <a className="w-full" href={outUrl} target="_blank">
             <motion.div className="overflow-hidden shadow-lg cursor-pointer m-auto w-full p-10 rounded-md h-full" style={{ backgroundColor: color }} whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.958 }} >
                 <img alt="blog photo" src={imageUrl} className="max-h-96 object-cover self-center mx-auto" />
