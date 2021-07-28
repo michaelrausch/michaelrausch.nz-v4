@@ -9,7 +9,11 @@ import { Header } from "../components/Header";
 import { Banner } from "../components/home/Banner";
 import { JumbotronV2 } from "../components/home/JumbotronV2";
 
-export const HomePageLayout: React.FC = ({children}) => {
+interface Props {
+    strings: any;
+}
+
+export const HomePageLayout: React.FC<Props> = ({children, strings}) => {
     return (
         <div className="bg-gray-800">
             <NextSeo
@@ -33,8 +37,8 @@ export const HomePageLayout: React.FC = ({children}) => {
             <Header/>
 
             <JumbotronV2
-                name="Michael"
-                bio="I'm a Christchurch based freelance software engineer and photographer. I create mobile and web applications for small businesses throughout Australia and New Zealand."
+                name={strings.jumbo_name}
+                bio={strings.jumbo_bio}
                 secondaryLinkUrl="https://github.com/michaelrausch/"
                 secondaryLinkName="Github"
                 imageUrl="/images/16.jpg"

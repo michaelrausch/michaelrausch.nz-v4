@@ -4,10 +4,27 @@ import { PhotographyBlock } from '../components/blocks/PhotographyBlock'
 import { AppFeatureBlock } from '../components/blocks/AppFeatureBlock'
 import { ContactCtaBlock } from '../components/blocks/ContactCtaBlock'
 import { HomePageLayout } from '../layouts/HomePageLayout'
+import { GetStaticProps } from 'next'
+import { loadStringsForRegion } from '../lib/StringLoader'
 
-const Home: React.FC = () => {
+export const getStaticProps: GetStaticProps = async (context) => {
+  let region = process.env.REGION || 'nz';
+  let strings = loadStringsForRegion(region);
+
+  return {
+      props: {
+          strings
+      }
+  }
+}
+
+interface Props {
+  strings: any
+}
+
+const Home: React.FC<Props> = ({strings}) => {
   return (
-     <HomePageLayout>
+     <HomePageLayout strings={strings}>
        <AppFeatureBlock
           appName="Barber & Co"
           appDescription="Download the Barber & Co app to be eligible for their Loyalty Programme. Have your barber scan your code and work towards receiving 50% off your 5th cut, and your 10th cut FREE."
