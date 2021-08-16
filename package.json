@@ -14,7 +14,7 @@
     "gray-matter": "^4.0.3",
     "highlight.js": "^10.7.2",
     "ionicons": "^5.5.2",
-    "next": "11.0.1",
+    "next": "11.1.0",
     "next-auth": "^3.27.3",
     "next-seo": "^4.24.0",
     "raw-loader": "^4.0.2",
