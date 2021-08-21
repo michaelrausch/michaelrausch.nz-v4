@@ -17,8 +17,18 @@ interface Props {
 }
 
 export const CollectionPostListing: React.FC<Props> = ({ category, date, title, description, postId, imageUrl, color, heroUrl, technologies, outUrl }) => {
+
+    const go = () => {
+        if (outUrl && outUrl !== "") {
+            window.open(outUrl, "_blank")
+        }
+        else {
+            toast("Sorry, this website isn't live yet, I'll update this page as soon as it is.")
+        }
+    }
+
     return (
-        <a className="w-full" href={outUrl} target="_blank">
+        <a className="w-full" target="_blank" onClick={() => {go()}}>
             <motion.div className="overflow-hidden shadow-lg cursor-pointer m-auto w-full p-10 rounded-md h-full" style={{ backgroundColor: color }} whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.958 }} >
                 <img alt="blog photo" src={imageUrl} className="max-h-96 object-cover self-center mx-auto" />
