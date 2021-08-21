@@ -17,7 +17,7 @@ export const BlogPostLayout: React.FC<Props> = ({children, title, hero}) => {
                 <Header />
 
                 <div className="max-w-7xl mx-auto mt-10 pb-40 px-4 sm:px-6 lg:px-8 ">
-                    <h1 className="font-black text-7xl pb-10 text-white">{title}</h1>
+                    <h1 className="font-black text-6xl pb-10 text-white ">{title}</h1>
                     {/* <img src={hero} className="w-full rounded-md"></img> */}
 
                     {children}

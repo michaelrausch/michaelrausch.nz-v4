@@ -36,7 +36,7 @@ interface Props {
 export const BlogPost: React.FC<Props> = ({ post }) => {
     return (
         <BlogPostLayout title={post.title}>
-            <article className="prose max-w-none prose-sm lg:prose-lg xl:prose-xl" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+            <article className="prose max-w-none prose-sm lg:prose-lg xl:prose-xl prose-dark prose-green" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
         </BlogPostLayout>
     )
 }

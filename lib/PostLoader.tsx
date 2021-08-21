@@ -14,7 +14,7 @@ export const PROJECTS = path.join(process.cwd(), 'content/projects')
 /**
  * Constants
  */
-export const DEFAULT_PAGE_COUNT = 1
+export const DEFAULT_PAGE_COUNT = 5
 
 /**
  * Get a list of all posts in a directory
@@ -24,6 +24,7 @@ export const DEFAULT_PAGE_COUNT = 1
  */
 export const getAllPosts = (contentDirectory: string) => {
     const fileNames = fs.readdirSync(contentDirectory)
+    
     const allPostsData = fileNames.map((fileName) => {
         const id = fileName.replace(/\.md$/, "");
         const fullPath = path.join(contentDirectory, fileName);
