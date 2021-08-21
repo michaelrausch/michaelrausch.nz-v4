@@ -13,7 +13,7 @@ export const BlogPageLayout: React.FC = ({children}) => {
             <Header/>
 
             <div className="max-w-7xl mx-auto mt-10 pb-40 px-4 sm:px-6 lg:px-8">
-                <h1 className="font-black text-5xl md:text-7xl text-white">Blog</h1>
+                <h1 className="font-black text-5xl md:text-7xl text-white font-futura-pt-bold">Blog</h1>
 
                 <div>
                     <section className="text-gray-600 body-font overflow-hidden">

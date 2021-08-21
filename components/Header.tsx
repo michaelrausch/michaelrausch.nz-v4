@@ -7,10 +7,10 @@ export const Header: React.FC = () => {
             <div className="max-w-7xl mx-auto flex flex-wrap py-6 flex-col md:flex-row items-center px-4 sm:px-6 lg:px-8">
                 <Link href="/">
                     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                        <span className="text-2xl font-bold text-white">Michael Rausch</span>
+                        <span className="text-2xl text-white font-futura-pt font-bold">Michael Rausch</span>
                     </a>
                 </Link>
-                <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center">
+                <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center font-futura-pt">
                     <Link href="/">
                         <a className="mx-5 hover:text-gray-300 font-bold text-center">Home</a>
                     </Link>

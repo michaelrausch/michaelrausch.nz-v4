@@ -22,10 +22,10 @@ export const ContactCtaBlock: React.FC<Props> = ({email, subject}) => {
                         className="rounded-md bg-gray-900 shadow-md backdrop-filter backdrop-blur-lg bg-opacity-80" id="contact">
                         <div className="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
                             <h2 className="text-2xl font-extrabold text-black dark:text-white sm:text-4xl">
-                                <span className="block text-white">
+                                <span className="block text-white font-futura-pt-bold">
                                     Contact Me
                                 </span>
-                                <span className="block text-green-400 underline sm">
+                                <span className="block text-green-400 underline sm font-futura-pt-bold">
                                     {email}
                                 </span>
                             </h2>

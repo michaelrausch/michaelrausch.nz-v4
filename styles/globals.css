@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+@import url("https://use.typekit.net/gkb5efe.css");
 
 @tailwind base;
 @tailwind components;
@@ -14,4 +15,47 @@
 .react-pdf__Page__canvas {
     margin: 0 auto;
     border-radius: 10px;
+}
+
+.cursor {
+  display: inline-block;
+  background: #111;
+  margin-left: 1px;
+
+  -webkit-animation: blink 2s linear 0s infinite;
+  -moz-animation: blink 2s linear 0s infinite;
+  -ms-animation: blink 2s linear 0s infinite;
+  -o-animation: blink 2s linear 0s infinite;
+}
+
+@-webkit-keyframes blink {
+  0%   { background: #E5E7EB }
+  47%  { background: #FFFFFF }
+  50%  { background: #1F2937 }
+  97%  { background: #1F2937 }
+  100% { background: #FFFFFF }
+}
+
+@-moz-keyframes blink {
+  0%   { background: #E5E7EB }
+  47%  { background: #FFFFFF }
+  50%  { background: #1F2937 }
+  97%  { background: #1F2937 }
+  100% { background: #FFFFFF }
+}
+
+@-ms-keyframes blink {
+  0%   { background: #E5E7EB }
+  47%  { background: #FFFFFF }
+  50%  { background: #1F2937 }
+  97%  { background: #1F2937 }
+  100% { background: #FFFFFF }
+}
+
+@-o-keyframes blink {
+  0%   { background: #E5E7EB }
+  47%  { background: #FFFFFF }
+  50%  { background: #1F2937 }
+  97%  { background: #1F2937 }
+  100% { background: #FFFFFF }
 }

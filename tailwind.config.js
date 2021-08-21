@@ -9,7 +9,9 @@ module.exports = {
         'earth': "url('/images/earth.jpg')"
       }),
       fontFamily: {
-        'sourcecode': ['"Source Code Pro"', 'sans-serif']
+        'sourcecode': ['"Source Code Pro"', 'sans-serif'],
+        'futura-pt': ['"futura-pt"', 'sans-serif'],
+        'futura-pt-bold': ['"futura-pt-bold"', 'sans-serif'],
       },
       typography(theme) {
         return {

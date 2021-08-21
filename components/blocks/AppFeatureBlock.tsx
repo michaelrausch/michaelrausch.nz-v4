@@ -17,8 +17,8 @@ export const AppFeatureBlock: React.FC<Props> = ({appName, appDescription, appSt
                     <section className="text-gray-300 body-font z-100">
                         <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
                             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <h1 className="sm:text-5xl text-3xl mb-4 font-extrabold dark:text-white text-gray-200">{appName}</h1>
-                                <p className="mb-8 leading-relaxed">{appDescription}</p>
+                                <h1 className="sm:text-5xl text-3xl mb-4 font-extrabold dark:text-white text-gray-200 font-futura-pt-bold">{appName}</h1>
+                                <p className="mb-8 leading-relaxed text-md">{appDescription}</p>
                                 <div className="flex justify-center flex-col sm:flex-row">
                                     <a href={appStoreUrl} target="_blank">
                                         <img className="h-16 mx-auto" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1619913600&h=fad42942225e4c7ac5392eceb723a72f" alt="Download on the App Store" />

@@ -21,8 +21,8 @@ export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage,
         <Container>
             <div className="overflow-hidden relative lg:flex lg:items-center px-5 py-20">
                 <div className="w-full px-0 sm:px-20 md:px-0">
-                    <h2 className="text-3xl font-extrabold text-white dark:text-white sm:text-5xl text-center md:text-left">
-                        <span className="block">
+                    <h2 className="text-3xl font-extrabold text-white dark:text-white sm:text-5xl text-center md:text-left font-futura-pt-bold">
+                        <span className="block" >
                             Photography
                         </span>
                     </h2>
