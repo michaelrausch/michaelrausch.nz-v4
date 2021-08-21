@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'wave': "url('/images/wave-clear.svg')",
-        'jumbo': "url('/images/blob-scene-haikei.png')",
+        'jumbo': "url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')",
         'earth': "url('/images/earth.jpg')"
       }),
       fontFamily: {
@@ -78,5 +78,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+
   ],
 }

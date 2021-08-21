@@ -12,7 +12,7 @@ interface Props {
 export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imageUrl, secondaryLinkName }) => {
     return (
         <div className="bg-jumbo bg-no-repeat bg-center bg-cover">
-            <div className="bg-gray-900 backdrop-filter backdrop-blur-md bg-opacity-20">
+            <div className="bg-black backdrop-filter backdrop-blur-md bg-opacity-40">
                 <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32 lg:py-32">
                     <div className="sm:text-center lg:text-left">
                         <h1 className="text-5xl tracking-tight font-extrabold text-white sm:text-6xl md:text-7xl">

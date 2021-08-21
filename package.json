@@ -1,6 +1,6 @@
 {
   "name": "michaelrausch-2021",
-  "version": "0.1.0",
+  "version": "1.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.0",
     "contentful": "^8.4.2",
     "framer-motion": "^4.1.11",
