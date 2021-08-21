@@ -80,7 +80,7 @@ export const Repos: React.FC<Props> = ({ repos }) => {
             <Container>
                 <h1 className="font-futura-pt-bold text-4xl mb-10 text-center text-white pb-10 p-5 sm:p-0 sm:text-6xl sm:text-left">Git Repositories</h1>
 
-                <a href="https://github.com/michaelrausch" target="_blank" className="bg-white text-black font-futura-pt-bold py-3 px-5 my-5">View Github Profile &#12297;</a>
+                <a href="https://github.com/michaelrausch" target="_blank" className="bg-white text-black font-futura-pt-bold py-3 px-5 my-5 mx-5 sm:mx-0">View Github Profile &#12297;</a>
 
                 <ul className="divide-y-2 divide-gray-700 p-5 sm:p-0">
                     {repoList}
