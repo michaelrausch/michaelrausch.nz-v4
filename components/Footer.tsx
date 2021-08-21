@@ -13,7 +13,7 @@ export const Footer: React.FC<Props> = ({name, instagramUrl, linkedinUrl}) => {
       <div className=" px-5 py-8 mx-auto flex items-center sm:flex-row flex-col max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="https://github.com/michaelrausch/michaelrausch.nz-v4" target="_blank">
           <span className="ml-3 text-xl font-semibold text-gray-100 font-sourcecode" >
-            &#12297;$ gh repo view <span className="bg-gray-100 cursor">&nbsp;</span>
+            &#12297;$ gh repo view -w <span className="bg-gray-100 cursor">&nbsp;</span>
           </span>
         </a>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

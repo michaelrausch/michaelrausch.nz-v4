@@ -10,6 +10,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.0",
+    "axios": "^0.21.1",
     "contentful": "^8.4.2",
     "framer-motion": "^4.1.11",
     "gray-matter": "^4.0.3",

@@ -43,7 +43,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                                 whileTap={{ scale: 0.90 }}
                                 transition={{ duration: 0.2 }}
                                 className="mt-3 sm:mt-0 sm:ml-3">
-                                <a href={secondaryLinkUrl} rel="noreferrer" target="_blank" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10 font-futura-pt">
+                                <a href={secondaryLinkUrl} rel="noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10 font-futura-pt">
                                     {secondaryLinkName}
                                 </a>
                             </motion.div>

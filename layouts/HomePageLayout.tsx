@@ -39,8 +39,8 @@ export const HomePageLayout: React.FC<Props> = ({children, strings}) => {
             <JumbotronV2
                 name={strings.jumbo_name}
                 bio={strings.jumbo_bio}
-                secondaryLinkUrl="https://github.com/michaelrausch/"
-                secondaryLinkName="Github"
+                secondaryLinkUrl="/repos"
+                secondaryLinkName="Git Repositories"
                 imageUrl="/images/16.jpg"
             />
 
