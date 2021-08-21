@@ -62,7 +62,7 @@ interface Props {
 const Blog: React.FC<Props> = ({ posts, numberOfPages, currentPage, nextPage, previousPage }) => {
     return (
         <BlogPageLayout>
-            {posts.map(({ id, date, title, description, category }, index) => (
+            {posts.map(({ id, date, title, description, category, tags }, index) => (
                 <BlogPostListing
                     key={index}
                     title={title}
@@ -70,6 +70,7 @@ const Blog: React.FC<Props> = ({ posts, numberOfPages, currentPage, nextPage, pr
                     category={category}
                     date={date}
                     postId={id}
+                    tags={tags}
                 />
             ))}
 
