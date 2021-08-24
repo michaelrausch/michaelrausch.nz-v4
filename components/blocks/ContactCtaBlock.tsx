@@ -9,7 +9,7 @@ export const ContactCtaBlock: React.FC<Props> = ({email, subject}) => {
     let mailToUrl = "mailto:" + email + "?subject=" + subject;
 
     return (
-        <div className="bg-wave bg-no-repeat bg-center bg-cover mt-10 md:mt-48 py-10 sm:py-20 px-5 sm:px-0">
+        <div className="bg-wave bg-no-repeat bg-center bg-cover mt-10 md:mt-40 py-10 sm:py-20 px-5 sm:px-0 mb-0">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-20">
                 <a href={mailToUrl}>
                     <motion.div
