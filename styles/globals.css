@@ -31,31 +31,31 @@
 @-webkit-keyframes blink {
   0%   { background: #E5E7EB }
   47%  { background: #FFFFFF }
-  50%  { background: #1F2937 }
-  97%  { background: #1F2937 }
+  50%  { background: #0D0D0D }
+  97%  { background: #0D0D0D }
   100% { background: #FFFFFF }
 }
 
 @-moz-keyframes blink {
   0%   { background: #E5E7EB }
   47%  { background: #FFFFFF }
-  50%  { background: #1F2937 }
-  97%  { background: #1F2937 }
+  50%  { background: #0D0D0D }
+  97%  { background: #0D0D0D }
   100% { background: #FFFFFF }
 }
 
 @-ms-keyframes blink {
   0%   { background: #E5E7EB }
   47%  { background: #FFFFFF }
-  50%  { background: #1F2937 }
-  97%  { background: #1F2937 }
+  50%  { background: #0D0D0D }
+  97%  { background: #0D0D0D }
   100% { background: #FFFFFF }
 }
 
 @-o-keyframes blink {
   0%   { background: #E5E7EB }
   47%  { background: #FFFFFF }
-  50%  { background: #1F2937 }
-  97%  { background: #1F2937 }
+  50%  { background: #0D0D0D }
+  97%  { background: #0D0D0D }
   100% { background: #FFFFFF }
 }

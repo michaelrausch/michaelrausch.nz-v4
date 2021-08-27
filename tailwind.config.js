@@ -82,6 +82,10 @@ module.exports = {
         barberco: {
           DEFAULT: '#353535'
         }
+      },
+      boxShadow: {
+        'offset-black': '5px 5px black',
+        'offset-black-lg': '8px 8px black'
       }
     },
   },
