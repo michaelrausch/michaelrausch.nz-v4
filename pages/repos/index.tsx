@@ -6,6 +6,7 @@ import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { JumbotronV2 } from '../../components/home/JumbotronV2';
 import { InvoiceLayout } from '../../layouts/InvoiceLayout';
+import { PageLayout } from '../../layouts/PageLayout';
 
 const contentful = require("contentful");
 const axios = require('axios').default;
@@ -70,29 +71,18 @@ export const Repos: React.FC<Props> = ({ repos }) => {
     })
 
     return (
-        <div className="bg-gray-900">
+        <PageLayout title="Github Projects">
             <NextSeo
-                title="Repositories"
+                title="Github Projects"
             />
 
-            <Header></Header>
+            <a href="https://github.com/michaelrausch" target="_blank" className="bg-white shadow-offset-green rounded-sm text-black font-futura-pt-bold py-3 px-5 my-5 mx-5 sm:mx-0 hover:shadow-offset-green-lg">View Github Profile &#12297;</a>
 
-            <Container>
-                <h1 className="font-futura-pt-bold text-4xl mb-10 text-center text-white pb-10 p-5 sm:p-0 sm:text-6xl sm:text-left">Git Repositories</h1>
+            <ul className="divide-y-2 divide-gray-700 p-5 mt-10 sm:p-0 ">
+                {repoList}
+            </ul>
+        </PageLayout>
 
-                <a href="https://github.com/michaelrausch" target="_blank" className="bg-white text-black font-futura-pt-bold py-3 px-5 my-5 mx-5 sm:mx-0">View Github Profile &#12297;</a>
-
-                <ul className="divide-y-2 divide-gray-700 p-5 sm:p-0">
-                    {repoList}
-                </ul>
-            </Container>
-
-            <Footer
-                name="Michael Rausch"
-                instagramUrl="https://www.instagram.com/michaelnz_/"
-                linkedinUrl="https://www.linkedin.com/in/michael-rausch-13445b8a/"
-            ></Footer>
-        </div>
     )
 }
 

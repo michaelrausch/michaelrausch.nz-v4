@@ -15,7 +15,7 @@ export const PageLayout: React.FC<Props> = ({ children, title }) => {
 
                 <div className="w-full align-middle">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 align-middle">
-                        <h1 className="font-black text-5xl text-center md:text-left md:text-7xl text-white align-middle py-10 font-futura-pt-bold">{title}</h1>
+                        <h1 className="font-black text-5xl text-center md:text-left md:text-6xl text-white align-middle py-10 font-futura-pt-bold text-shadow-gray-800">{title}</h1>
                     </div>
                 </div>
 

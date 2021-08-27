@@ -50,7 +50,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                                     <a 
                                         rel="noreferrer" 
                                         className="w-full flex items-center justify-center px-8 py-3  text-base font-bold rounded-md text-black bg-green-500  md:py-4 md:text-lg md:px-10 font-futura-pt shadow-offset-black hover:shadow-offset-black-lg cursor-pointer">
-                                        Git Repositories
+                                        Github Projects
                                     </a>
                                 </Link>
                             </motion.div>
