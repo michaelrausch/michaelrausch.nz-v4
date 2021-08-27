@@ -22,11 +22,11 @@ export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage,
             <div className="overflow-hidden relative lg:flex lg:items-center px-5 py-20">
                 <div className="w-full px-0 sm:px-20 md:px-0">
                     <h2 className="text-3xl font-extrabold text-white dark:text-white sm:text-5xl text-center md:text-left font-futura-pt-bold">
-                        <span className="block" >
+                        <span className="block " >
                             Photography
                         </span>
                     </h2>
-                    <p className="text-md mt-4 text-gray-100 text-center md:text-left">
+                    <p className="text-md mt-4 text-gray-100 text-center md:text-left z-50">
                         {bio}
                     </p>
                     <div className="lg:mt-0 lg:flex-shrink-0 mb-10 ">
@@ -36,7 +36,7 @@ export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage,
                             transition={{duration: 0.2}}                                    
                             className="mt-12 inline-flex rounded-md shadow w-full md:w-auto">
 
-                            <a href={portfolioUrl} rel="noreferrer" target="_blank" className="py-3 px-7 yellow-regular-shadow bg-yellow-light text-black w-full transition ease-in duration-200 text-center text-lg font-bold rounded-md">
+                            <a href={portfolioUrl} rel="noreferrer" target="_blank" className="py-3 px-7 yellow-regular-shadow bg-yellow-light text-black w-full transition ease-in duration-200 text-center text-lg font-bold rounded-md font-futura-pt-bold shadow-offset-black">
                                 Portfolio
                             </a>
                         </motion.div>

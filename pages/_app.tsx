@@ -6,6 +6,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import { DefaultSeo } from 'next-seo';
 import { ToastContainer } from 'react-toastify';
 import { Provider } from 'next-auth/client';
+import { Banner } from '../components/home/Banner';
 
 function MyApp({ Component, pageProps }) {
   return (

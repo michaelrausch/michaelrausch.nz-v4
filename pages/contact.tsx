@@ -1,38 +1,31 @@
-import Head from 'next/head'
-import { Footer } from '../components/Footer'
-import GetLDJson from '../lib/ldjson'
-import { Header } from '../components/Header'
-import { Container } from '../components/Container'
-import { NextSeo } from 'next-seo'
+import { NextSeo } from "next-seo";
+import React from "react";
+import ContactForm from "../components/ContactForm";
+import Map from "../components/Map";
+import { PageWithMapLayout } from "../layouts/PageWithMapLayout";
 
 const Contact: React.FC = () => {
-  return (
-    <div className="bg-gray-100">
-      <NextSeo
-        title="Contact"
-        />
+
+    return (
+        <PageWithMapLayout title="Get In Touch">
+            <NextSeo title="Contact"></NextSeo>
+
+            <div className="flex space-x-0 md:space-x-20 flex-col md:flex-row pb-20">
+                <ContactForm></ContactForm>
+
+                <div className="flex-1 text-white font-futura-pt text-center pt-20 md:pt-0 md:text-right bg-au bg-contain bg-no-repeat bg-right-bottom bg-opacity-5">
+                    <h2 className="text-white font-bold text-4xl mb-8 font-futura-pt-bold">Contact Details</h2>
+
+                    <span className="font-futura-pt-bold text-lg">email</span>
+                    <p className="font- font-futura-pt text-xl mb-5">michael@rausch.nz</p>
+
+                    <span className="font-futura-pt-bold text-lg">phone</span>
+                    <p className="font- font-futura-pt text-xl"> +64-27-952-9554</p>
+                </div>
+            </div>
+        </PageWithMapLayout>
         
-      <Head>        
-        <script
-          type='application/ld+json'
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(GetLDJson()) }}
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Header></Header>
-
-      <Container>
-      
-      </Container>
-
-      <Footer
-          name="Michael Rausch"
-          instagramUrl="https://www.instagram.com/michaelnz_/"
-          linkedinUrl="https://www.linkedin.com/in/michael-rausch-13445b8a/"
-        ></Footer>
-    </div>
-  )
+    )
 }
 
-export default Contact
+export default Contact;

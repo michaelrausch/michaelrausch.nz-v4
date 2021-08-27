@@ -1,5 +1,6 @@
 import React from "react"
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 interface Props {
     name: string;
@@ -12,8 +13,8 @@ interface Props {
 export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imageUrl, secondaryLinkName }) => {
     return (
         <div className="bg-jumbo bg-no-repeat bg-center bg-cover">
-            <div className="bg-black backdrop-filter backdrop-blur-md bg-opacity-40">
-                <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-32 lg:py-32">
+            <div className="bg-gray-900 backdrop-filter backdrop-blur-sm bg-opacity-60">
+                <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-48 lg:py-48">
                     <div className="sm:text-center lg:text-left">
                         <h1 className="text-5xl tracking-tight text-white sm:text-6xl md:text-7xl font-futura-pt-bold">
                             <span className="block xl:inline">Hi, I'm </span>
@@ -30,10 +31,12 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                                 whileTap={{ scale: 0.90 }}
                                 transition={{ duration: 0.2 }}
                                 className="rounded-md shadow">
-                                <motion.a
-                                    href="#contact" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10 font-futura-pt">
-                                    Contact Me
-                                </motion.a>
+                                <Link href="/contact">
+                                    <motion.a
+                                        className="w-full flex items-center justify-center px-8 py-3  text-base font-bold rounded-md text-black bg-green-500  md:py-4 md:text-lg md:px-10 font-futura-pt shadow-offset-black hover:shadow-offset-black-lg cursor-pointer">
+                                        Contact Me
+                                    </motion.a>
+                                </Link>
                             </motion.div>
 
                             <motion.div
@@ -43,9 +46,13 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                                 whileTap={{ scale: 0.90 }}
                                 transition={{ duration: 0.2 }}
                                 className="mt-3 sm:mt-0 sm:ml-3">
-                                <a href={secondaryLinkUrl} rel="noreferrer" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-green-500 hover:bg-green-600 md:py-4 md:text-lg md:px-10 font-futura-pt">
-                                    {secondaryLinkName}
-                                </a>
+                                <Link href="/repos">
+                                    <a 
+                                        rel="noreferrer" 
+                                        className="w-full flex items-center justify-center px-8 py-3  text-base font-bold rounded-md text-black bg-green-500  md:py-4 md:text-lg md:px-10 font-futura-pt shadow-offset-black hover:shadow-offset-black-lg cursor-pointer">
+                                        Github Projects
+                                    </a>
+                                </Link>
                             </motion.div>
                         </div>
                     </div>

@@ -29,19 +29,16 @@ interface Props {
 const Blog: React.FC<Props> = ({posts, nextPage}) => {
   return (
     <ProjectsPageLayout>
-      {posts.map(({id, date, title, description, category, imageUrl, color, heroUrl, technologies, outUrl}, index) => (
+      {posts.map(({title, description, imageUrl, color, technologies, outUrl, style}, index) => (
         <CollectionPostListing
         key={index}
         title={title}
         description={description}
-        category={category}
-        date={date}
-        postId={id}
         imageUrl={imageUrl}
-        heroUrl={heroUrl}
         color={color}
         technologies={technologies}
         outUrl={outUrl}
+        style={style}
       >
         </CollectionPostListing>              
       ))}
