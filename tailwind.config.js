@@ -85,7 +85,8 @@ module.exports = {
       },
       boxShadow: {
         'offset-black': '5px 5px black',
-        'offset-black-lg': '8px 8px black'
+        'offset-black-lg': '8px 8px black',
+        'offset-green': '3px 3px #00DB87'
       }
     },
   },

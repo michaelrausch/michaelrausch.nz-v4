@@ -17,7 +17,8 @@ export const AppFeatureBlock: React.FC<Props> = ({appName, appDescription, appSt
                     <section className="text-gray-300 body-font z-100">
                         <div className="container mx-auto flex px-5 md:flex-row flex-col items-center">
                             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                                <h1 className="sm:text-5xl text-3xl mb-4 font-extrabold dark:text-white text-gray-200 font-futura-pt-bold">{appName}</h1>
+                                <span className="rounded-xl bg-green-500 px-4 py-1 mb-5 text-black font-futura-pt-bold shadow-offset-black">Latest Release</span>
+                                <h1 className="sm:text-5xl text-3xl mb-4 font-extrabold dark:text-white text-white font-futura-pt-bold text-shadow-gray-800">{appName}</h1>
                                 <p className="mb-8 leading-relaxed text-md">{appDescription}</p>
                                 <div className="flex justify-center flex-col sm:flex-row">
                                     <a href={appStoreUrl} target="_blank">

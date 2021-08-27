@@ -59,3 +59,23 @@
   97%  { background: #0D0D0D }
   100% { background: #FFFFFF }
 }
+
+.text-shadow {
+  text-shadow: 5px 5px #000;
+}
+
+.text-shadow-black {
+  text-shadow: 5px 5px #000;
+}
+
+.text-shadow-green-500 {
+  text-shadow: 3px 3px #00b36e;
+}
+
+.text-shadow-gray-800 {
+  text-shadow: 2px 2px #121416;
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}

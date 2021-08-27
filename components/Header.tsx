@@ -12,10 +12,10 @@ export const Header: React.FC = () => {
                 </Link>
                 <nav className="md:ml-auto flex flex-wrap items-center text-lg justify-center font-futura-pt">
                     <Link href="/">
-                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Home</a>
+                        <a className="mx-5 font-bold text-center border-b-2 border-transparent hover:border-green-500">Home</a>
                     </Link>
                     <Link href="/projects">
-                        <a className="mx-5 hover:text-gray-300 font-bold text-center">Work</a>
+                        <a className="mx-5 font-bold text-center border-b-2 border-transparent outline-none hover:border-green-500 ">Work</a>
                     </Link>      
                     {/* <a href="https://github.com/michaelrausch"className="mr-5 hover:text-gray-300">Github</a> */}
                 </nav>

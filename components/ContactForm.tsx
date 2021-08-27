@@ -57,18 +57,18 @@ const ContactForm: React.FC = () => {
         <form className="flex-1" onSubmit={onSubmit}>
 
             { error !== '' &&
-                <div className="bg-red-500 mb-10 rounded-sm text-white py-4 px-6 font-futura-pt-bold">{error}</div>
+                <div className="bg-red-500 mb-10 rounded-sm text-white py-4 px-6 font-futura-pt-bold shadow-offset-black">{error}</div>
             }
 
             { successMessage !== '' &&
-                <div className="bg-green-500 mb-10 rounded-sm text-white py-4 px-6 font-futura-pt-bold">{successMessage}</div>
+                <div className="bg-green-500 mb-10 rounded-sm text-white py-4 px-6 font-futura-pt-bold shadow-offset-black">{successMessage}</div>
             }
 
             <div className="pb-5">
                 <label className="text-white text-xl font-futura-pt font-semibold">Name</label>
                 <input 
                     type="text" 
-                    className="bg-gray-700 rounded-sm block  text-white w-full border-none text-xl py-3 mt-2 shadow-xl" 
+                    className="bg-gray-700 rounded-sm block  text-white w-full border-none text-xl py-3 mt-2 shadow-xl " 
                     value={name} 
                     onChange={(e) => setName(e.target.value)} 
                     ></input>
@@ -77,7 +77,7 @@ const ContactForm: React.FC = () => {
             <div className="pb-5">
                 <label className="text-white text-xl font-futura-pt font-semibold">Email</label>
                 <input type="email" 
-                    className="bg-gray-700 rounded-sm block text-white w-full border-none text-xl py-3 mt-2" 
+                    className="bg-gray-700 rounded-sm block text-white w-full border-none text-xl py-3 mt-2 " 
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                     ></input>
@@ -86,14 +86,14 @@ const ContactForm: React.FC = () => {
             <div className="pb-5">
                 <label className="text-white text-xl font-futura-pt font-semibold">Message</label>
                 <textarea 
-                    className="bg-gray-700 rounded-sm block text-white w-full border-none mt-2" 
+                    className="bg-gray-700 rounded-sm block text-white w-full border-none mt-2 " 
                     value={message}
                     onChange={e => setMessage(e.target.value)}
                     ></textarea>
             </div>
 
             <button 
-                className="py-3 px-8 bg-green-500 font-futura-pt-bold text-xl rounded-sm text-white w-full md:w-auto disabled:opacity-50"
+                className="py-3 px-8 bg-green-500 font-futura-pt-bold text-xl rounded-sm text-white w-full md:w-auto disabled:opacity-50 shadow-offset-black"
                 disabled={formProcessing}>
                     {formProcessing ? 'Sending' : 'Send'}
                 </button>
