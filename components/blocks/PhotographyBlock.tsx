@@ -26,7 +26,7 @@ export const PhotographyBlock: React.FC<Props> = ({bio, portfolioUrl, mainImage,
                             Photography
                         </span>
                     </h2>
-                    <p className="text-md mt-4 text-gray-100 text-center md:text-left">
+                    <p className="text-md mt-4 text-gray-100 text-center md:text-left z-50">
                         {bio}
                     </p>
                     <div className="lg:mt-0 lg:flex-shrink-0 mb-10 ">
