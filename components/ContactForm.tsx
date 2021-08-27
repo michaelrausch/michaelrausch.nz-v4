@@ -73,6 +73,7 @@ const ContactForm: React.FC = () => {
                     className="bg-gray-700 rounded-sm block  text-white w-full border-none text-xl py-3 mt-2 shadow-xl " 
                     value={name} 
                     onChange={(e) => setName(e.target.value)} 
+                    placeholder="Joe Bloggs"
                     ></input>
             </div>
 
@@ -82,20 +83,22 @@ const ContactForm: React.FC = () => {
                     className="bg-gray-700 rounded-sm block text-white w-full border-none text-xl py-3 mt-2 " 
                     value={email}
                     onChange={e => setEmail(e.target.value)}
+                    placeholder="hello@example.com"
                     ></input>
             </div>
 
             <div className="pb-5">
                 <label className="text-white text-xl font-futura-pt font-semibold">Message</label>
                 <textarea 
-                    className="bg-gray-700 rounded-sm block text-white w-full border-none mt-2 h-32" 
+                    className="bg-gray-700 rounded-sm block text-white w-full border-none mt-2 h-32 text-xl" 
                     value={message}
                     onChange={e => setMessage(e.target.value)}
+                    placeholder="Hi!"
                     ></textarea>
             </div>
 
             <button 
-                className="py-3 px-8 bg-green-500 font-futura-pt-bold text-xl rounded-sm text-white w-full md:w-auto disabled:opacity-50 shadow-offset-black"
+                className="py-3 px-8 bg-green-500 font-futura-pt-bold text-xl rounded-sm text-black w-full md:w-auto disabled:opacity-50 shadow-offset-black"
                 disabled={formProcessing}>
                     {formProcessing ? 'Sending' : 'Send'}
                 </button>
