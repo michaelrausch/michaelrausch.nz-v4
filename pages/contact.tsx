@@ -12,14 +12,14 @@ const Contact: React.FC = () => {
             <div className="flex space-x-0 md:space-x-20 flex-col md:flex-row pb-20">
                 <ContactForm></ContactForm>
 
-                <div className="flex-1 text-white font-futura-pt text-center pt-20 md:pt-0 md:text-right bg-au bg-contain bg-no-repeat bg-right-bottom bg-opacity-5">
+                <div className="flex-1 text-white font-futura-pt text-center pt-20 md:pt-0 md:text-right bg-au bg-contain bg-no-repeat bg-right-bottom">
                     <h2 className="text-white font-bold text-4xl mb-8 font-futura-pt-bold">Contact Details</h2>
 
-                    <span className="font-futura-pt-bold text-lg">email</span>
-                    <p className="font- font-futura-pt text-xl mb-5">michael@rausch.nz</p>
+                    <span className="font-futura-pt-bold text-lg ">email</span>
+                    <p className="font- font-futura-pt text-xl mb-5 font-bold">michael@rausch.nz</p>
 
                     <span className="font-futura-pt-bold text-lg">phone</span>
-                    <p className="font- font-futura-pt text-xl"> +64-27-952-9554</p>
+                    <p className="font- font-futura-pt text-xl font-bold"> +64-27-952-9554</p>
                 </div>
             </div>
         </PageWithMapLayout>
