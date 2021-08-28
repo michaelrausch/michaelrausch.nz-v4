@@ -24,6 +24,7 @@
     "next-seo": "^4.24.0",
     "raw-loader": "^4.0.2",
     "react": "17.0.2",
+    "react-animated-cursor": "^2.2.0",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
     "react-intersection-observer": "^8.32.0",

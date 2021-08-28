@@ -23,7 +23,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
                         <p className="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0 font-futura-pt">
                             {bio}
                         </p>
-                        <div className="mt-5 mb-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                        <div className="mt-5 mb-10 sm:mt-8 sm:flex sm:justify-center lg:justify-start cursor-test">
                             <motion.div
                                 initial={{ scale: 1 }}
                                 animate={{ scale: 1 }}

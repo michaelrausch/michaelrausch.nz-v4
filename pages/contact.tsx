@@ -1,7 +1,6 @@
 import { NextSeo } from "next-seo";
 import React from "react";
 import ContactForm from "../components/ContactForm";
-import Map from "../components/Map";
 import { PageWithMapLayout } from "../layouts/PageWithMapLayout";
 
 const Contact: React.FC = () => {
@@ -24,7 +23,6 @@ const Contact: React.FC = () => {
                 </div>
             </div>
         </PageWithMapLayout>
-        
     )
 }
 
