@@ -11,13 +11,13 @@ See: https://michaelrausch.nz
 1. Install dependencies
 
    ```sh
-   npm i
+   yarn install
    ```
 
 2. Start the development server
 
    ```sh
-   npm run dev
+   yarn dev
    ```
 
 ## 🚀 Building and Running for Production
@@ -25,7 +25,7 @@ See: https://michaelrausch.nz
 1. Generate a production build
 
    ```sh
-   npm run build
+   yarn build
    ```
 
 2. Run the built in server
@@ -34,17 +34,44 @@ See: https://michaelrausch.nz
    npm start
    ```
    
+## Environment Variables
+```
+## Required for blog
+CONTENTFUL_ACCESS=
+CONTENTFUL_SPACE=
+
+# Required for github signin
+GITHUB_ID=
+GITHUB_SECRET=
+
+# See nextauth docs
+NEXTAUTH_URL=
+
+# A URL pointing to your CV (soon to be depricated)
+CV_PDF_URL=
+
+# Required for Auth0 signin
+AUTH0_CLIENT_ID=
+AUTH0_SECRET=
+AUTH0_DOMAIN=
+
+REGION=nz
+```
+
+1. You will need your own MapBox API key. Set this in Map.tsx (todo: pull this out of here).
+2. You will also need to set [this](https://github.com/michaelrausch/Contact-Form-Service) up, it's available as a docker image - `docker pull ghcr.io/michaelrausch/contact:latest` - see the [repo](https://github.com/michaelrausch/Contact-Form-Service) for docs. Change the API url in ContactForm.tsx
+
 ## Created Using
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-
-## Useful Resources
-
-- [Awesome Tailwind](https://github.com/aniftyco/awesome-tailwindcss/)
-- [Tailblocks](https://tailblocks.cc/)
-- [Netlify](https://www.netlify.com/)
+- [Contact API](https://github.com/michaelrausch/Contact-Form-Service)
+- [MapBox](https://www.mapbox.com/)
+- [Leaflet](https://react-leaflet.js.org/)
+- [Github API](https://docs.github.com/en/rest)
+- [Next Auth](https://next-auth.js.org/)
+- [Frontend Hosted On Vercel](https://vercel.com/)
 
 ## Using This Project
 Although this website wasn't designed as a template, you're free to use and adapt it as you wish. All of the source code in this project is licensed under the MIT license, with the following exceptions:
