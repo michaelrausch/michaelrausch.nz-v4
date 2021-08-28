@@ -56,7 +56,7 @@ export const JumbotronV2: React.FC<Props> = ({ name, bio, secondaryLinkUrl, imag
     
     return (
         <div className="bg-jumbo bg-no-repeat bg-center bg-cover">
-            <div className="bg-gray-900 backdrop-filter backdrop-blur-sm bg-opacity-30">
+            <div className="bg-gray-900 backdrop-filter backdrop-blur-md bg-opacity-30">
                 <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 md:py-48 lg:py-48 relative">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl tracking-tight text-white sm:text-6xl md:text-7xl font-futura-pt-bold">
