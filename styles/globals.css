@@ -64,6 +64,10 @@
   text-shadow: 5px 5px #000;
 }
 
+.text-shadow-sm {
+  text-shadow: 1px 1px #000;
+}
+
 .text-shadow-black {
   text-shadow: 5px 5px #000;
 }
