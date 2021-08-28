@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'wave': "url('/images/wave-clear.svg')",
-        'jumbo': "url('https://images.unsplash.com/photo-1475070929565-c985b496cb9f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')",
+        'jumbo': "url('https://images.unsplash.com/photo-1622180203374-9524a54b734d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')",
         'earth': "url('/images/earth.jpg')",
         'au': "url('/images/earth.gif')"
       }),

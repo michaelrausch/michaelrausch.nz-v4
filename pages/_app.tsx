@@ -10,14 +10,16 @@ import { Banner } from '../components/home/Banner';
 import dynamic from 'next/dynamic';
 import AnimatedCursor from 'react-animated-cursor';
 
+const AnimatedCursorNoSSR = dynamic<AnimatedCursor>(() => import("react-animated-cursor"), {
+  ssr: false
+});
+
 function MyApp({ Component, pageProps }) {
-  const AnimatedCursor = dynamic<AnimatedCursor>(() => import("react-animated-cursor"), {
-    ssr: false
-  });
+  
 
   return (
     <>
-      <AnimatedCursor 
+      <AnimatedCursorNoSSR 
         innerSize={10}
         outerSize={50}
         color='255, 225, 255'

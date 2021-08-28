@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+model-viewer {
+  height: 400px;
+  width: 400px; 
+}
+
 .Toastify__toast {
     background-color: rgba(60,60,60, .65);
     backdrop-filter: blur(5px);
