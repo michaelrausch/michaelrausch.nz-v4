@@ -34,7 +34,7 @@
     "react-pdf": "^5.3.2",
     "react-scroll-parallax": "^2.4.0",
     "react-sizeme": "^3.0.1",
-    "react-toastify": "^7.0.4",
+    "react-toastify": "^8.0.2",
     "remark": "^13.0.0",
     "remark-external-links": "^8.0.0",
     "remark-html": "^13.0.1"
