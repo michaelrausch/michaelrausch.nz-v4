@@ -1786,7 +1786,7 @@ invariant@^2.2.4:
   dependencies:
     loose-envify "^1.0.0"
 
-ionicons@^5.5.2:
+ionicons@^5.5.3:
   version "5.5.3"
   resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.5.3.tgz#33cfc4c8a590ac45895f2b10309ef4586ed244c1"
   integrity sha512-L71djrMi8pAad66tpwdnO1vwcyluCFvehzxU1PpH1k/HpYBZhZ5IaYhqXipmqUvu5aEbd4cbRguYyI5Fd4bxTw==
