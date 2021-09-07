@@ -37,7 +37,7 @@
     "react-toastify": "^8.0.2",
     "remark": "^13.0.0",
     "remark-external-links": "^8.0.0",
-    "remark-html": "^13.0.1"
+    "remark-html": "^13.0.2"
   },
   "devDependencies": {
     "@types/node": "^15.0.3",
