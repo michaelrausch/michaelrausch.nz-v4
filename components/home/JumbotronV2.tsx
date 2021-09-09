@@ -36,13 +36,13 @@ const JumbotronButtons: React.FC = () => {
                 whileTap={{ scale: 0.90 }}
                 transition={{ duration: 0.2 }}
                 className="mt-3 sm:mt-0 sm:ml-3">
-                <Link href="/repos">
-                    <a
-                        rel="noreferrer"
-                        className="w-full flex items-center justify-center px-8 py-3  text-base font-bold rounded-md text-black bg-green-500  md:py-4 md:text-lg md:px-10 font-futura-pt shadow-offset-black hover:shadow-offset-black-lg cursor-pointer">
-                        Github Projects
-                    </a>
-                </Link>
+                <a
+                    href="https://blog.michaelrausch.nz"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full flex items-center justify-center px-8 py-3  text-base font-bold rounded-md text-black bg-green-500  md:py-4 md:text-lg md:px-10 font-futura-pt shadow-offset-black hover:shadow-offset-black-lg cursor-pointer">
+                    Blog
+                </a>
             </motion.div>
         </div>
     )

@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         color='255, 225, 255'
         outerAlpha={0.2}
         innerScale={0.7}
-        outerScale={2}
+        outerScale={1.5}
       />
 
       <DefaultSeo
